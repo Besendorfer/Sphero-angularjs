@@ -11,3 +11,5 @@ After bower is installed, type `bower install` to get the required bower depende
 Once node and bower are installed, it is also necessary to install grunt globally. Again, just use *npm* to do this with `npm install -g grunt-cli`.
 
 Once everything is set up, all that is necessary is to run rosbridge with `roslaunch rosbridge_server rosbridge_websocket.launch`, and then run your code with `grunt serve`.
+
+**Note**: The code to change/add to, to control the Sphero is found in app/modules/intruder/intruder.controller.js
